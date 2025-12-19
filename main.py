@@ -7,7 +7,6 @@ dotenv.load_dotenv()
 
 app = Flask(__name__)
 
-
 app.config['MAIL_SERVER']='smtp.gmail.com'
 app.config['MAIL_PORT']=465
 app.config['MAIL_USERNAME']=os.getenv('SEN_EMAIL')
